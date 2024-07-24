@@ -70,6 +70,9 @@ Prerequisites
 Before you begin, ensure you have the following installed:
 
 Java Development Kit (JDK) 17 or later
+
 Spring boot
+
 Angular 
+
 MySQL 8.0 or later
