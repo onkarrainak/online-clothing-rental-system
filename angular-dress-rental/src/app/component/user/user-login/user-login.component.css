@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+h1.fw-bold {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-outline {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  color: #333;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.error {
+  color: #d9534f;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.message:hover {
+  text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+

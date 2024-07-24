@@ -1,0 +1,69 @@
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header.site-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Marker Felt', fantasy ;
+  
+  color: #07b4f4;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.header .logo:hover {
+  transform: scale(1.1);
+  color: #e90bda;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(170, 162, 162, 0.433);
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-items a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo-container .logo-image:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  height: 80px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}

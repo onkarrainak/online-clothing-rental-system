@@ -1,0 +1,138 @@
+/* General styles for body and containers */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Centered container styling */
+.centered {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Flexbox container for products */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* Adjust for grid spacing */
+}
+
+/* Individual product box */
+.itemsbox {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px;
+    transition: box-shadow 0.3s ease;
+    text-align: left;
+    position: relative;
+    height: 750px; /* Fixed height for uniformity */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content */
+}
+
+/* Hover effect for items */
+.itemsbox:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Product name styling */
+.itemsbox h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+    font-weight: 600;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Image styling */
+.itemsbox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-height: 100%; /* Limit image height */
+    object-fit: cover; /* Ensure the image covers the allocated area */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Button styling */
+.itemsbox button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px 0; /* Adjust margin for spacing */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.itemsbox button:hover {
+    background-color: #0056b3;
+}
+
+/* Product description and other text styling */
+.itemsbox p {
+    margin: 5px 0;
+    font-size: 1rem;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.itemsbox p b {
+    font-weight: 600;
+}
+
+
+
+/* Container for pagination controls */
+.centered {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Pagination component styling */
+app-paging {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #aeb0b1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination button styling */
+.app-paging-button {
+    background-color: #007bff;
+    border: none;
+    color: #aeb0b1;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.app-paging-button:active {
+    transform: scale(0.95);
+}
+
+/* Pagination button container */
+.app-paging-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

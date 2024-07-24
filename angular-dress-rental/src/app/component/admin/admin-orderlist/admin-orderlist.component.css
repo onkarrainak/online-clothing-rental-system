@@ -1,0 +1,68 @@
+/* Centered container styling */
+.centered {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Styling for the date picker form field */
+mat-form-field {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+}
+
+/* Styling for the date picker input */
+mat-form-field input {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Styling for the date picker toggle button */
+mat-datepicker-toggle {
+    color: #007bff; /* Match button color */
+}
+
+/* Table styling */
+table {
+    width: 80%; /* Adjust table width */
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 0.9rem; /* Make the font size smaller */
+}
+
+/* Table header styling */
+th {
+    background-color: #575c61;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table cell styling */
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table border styling */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Alternate row color for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    mat-form-field {
+        max-width: 100%;
+    }
+}

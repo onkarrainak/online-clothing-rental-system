@@ -1,0 +1,13 @@
+/* Styling for the Welcome h1 tag */
+h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    font-weight: 700; /* Makes the text bold */
+    color: #f9f9f9; /* Dark grey color for text */
+    text-align: center; /* Centers the text horizontally */
+    margin: 20px 0; /* Adds vertical margin to space it from other elements */
+    padding: 20px; /* Adds padding around the text */
+    background: linear-gradient(90deg, rgba(255, 0, 204, 0.8), rgba(0, 183, 255, 0.8)); /* Gradient background */
+    border-radius: 10px; /* Rounds the corners of the background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adds subtle shadow to the text */
+}
